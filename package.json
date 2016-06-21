@@ -1,0 +1,15 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "postinstall": "npm install -g webpack webpack-dev-server http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elvis dedic",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
