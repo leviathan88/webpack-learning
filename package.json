@@ -10,6 +10,11 @@
   "author": "elvis dedic",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "moment": "^2.13.0"
   }
 }
