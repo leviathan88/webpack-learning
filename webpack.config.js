@@ -1,7 +1,12 @@
 module.exports = {
   entry: './entry.js',
   output: {
-    filname: 'bundle.js'
+    filename: 'bundle.js'
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  module: {
+    loaders: [
+      {test: /\.css$/, loader: 'style!css!'}
+    ]
+  }
 };

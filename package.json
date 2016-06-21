@@ -4,6 +4,7 @@
   "description": "",
   "main": "entry.js",
   "scripts": {
+    "start": "webpack-dev-server --inline",
     "postinstall": "npm install -g webpack webpack-dev-server http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
