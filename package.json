@@ -1,0 +1,21 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --port 3000",
+    "postinstall": "npm install -g webpack webpack-dev-server http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elvis dedic",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "moment": "^2.13.0"
+  }
+}
