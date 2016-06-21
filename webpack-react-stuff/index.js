@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DOM from 'react-dom';
+import ReactDOM from 'react-dom';
 
 class App extends Component {
   render() {
@@ -9,4 +9,4 @@ class App extends Component {
   }
 }
 
-DOM.render(<App />, document.querySelector("#react-target") )
+ReactDOM.render(<App />, document.getElementById('app') )
