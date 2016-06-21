@@ -2,4 +2,7 @@
 bundle.js
 npm-debug.log
 bundle.js.map
+<<<<<<< HEAD
 /webpack-react-stuff/node_modules
+=======
+>>>>>>> 8de696188592513a057932ec4aa3905a0ff8fcee
