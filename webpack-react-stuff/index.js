@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './styles/style.scss';
 
 class App extends Component {
   render() {
     return (
-      <div>Go back to school</div>
+      <h1 className="title">Go back to school divine no more</h1>
     )
   }
 }
